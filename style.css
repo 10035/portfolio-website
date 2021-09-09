@@ -1,11 +1,14 @@
 .img-circle {
   background-color: coral;
-  border-radius: 900px;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
   
 }
 
 .card {
-  border: cornflowerblue;
+  border: rgb(92, 104, 126);
+  border-width: 1px;
   border-style: solid;
   border-radius: 10px;
   width: auto;
@@ -14,5 +17,5 @@
 }
 
 .btn {
-  
+
 }
