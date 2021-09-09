@@ -1,0 +1,18 @@
+.img-circle {
+  background-color: coral;
+  border-radius: 900px;
+  
+}
+
+.card {
+  border: cornflowerblue;
+  border-style: solid;
+  border-radius: 10px;
+  width: auto;
+  padding: 30px;
+  margin: 30px;
+}
+
+.btn {
+  
+}
