@@ -14,8 +14,13 @@
   width: auto;
   padding: 30px;
   margin: 30px;
+  text-align: center;
 }
 
 .btn {
 
+}
+/* TODO: Add Emojis as type list */
+.geo-icon {  
+  text-align: left;
 }
