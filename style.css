@@ -18,7 +18,8 @@
 }
 
 .btn {
-
+  background: rgb(112, 172, 218);
+  color: white;
 }
 /* TODO: Add Emojis as type list */
 .geo-icon {  
