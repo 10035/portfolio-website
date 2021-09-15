@@ -1,3 +1,11 @@
+
+body {
+  width: 35%;
+  padding: 0px;
+  margin: auto;
+}
+
+
 .img-circle {
   background-color: coral;
   border-radius: 100%;
@@ -7,20 +15,51 @@
 }
 
 .card {
-  border: rgb(92, 104, 126);
-  border-width: 1px;
-  border-style: solid;
+  border: rgba(92, 104, 126, 0.113);
+  /* border-width: 1px; */
+  /* border-style: solid; */
   border-radius: 10px;
   width: auto;
   padding: 30px;
   margin: 30px;
   text-align: center;
+  box-shadow: 5px 10px rgba(224, 224, 224, 0.148);
+}
+
+.sub-card {
+  border: rgba(92, 104, 126, 0.113);
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  border-radius: 10px;
+  width: auto;
+  padding: 1px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 5px 10px rgba(224, 224, 224, 0.148);
+  
 }
 
 .btn {
-  background: rgb(112, 172, 218);
+  background: rgb(39, 49, 242);
   color: white;
+  border: none;
+  border-radius: 50px;
+  width: 25%;
+  padding: 10px;
+  height: 45px;
 }
+
+.btn:hover {
+  background: rgb(53, 69, 242);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 25%;
+  padding: 10px;
+  height: 45px;
+  transition-delay: 100ms;
+}
+
 /* TODO: Add Emojis as type list */
 .geo-icon {  
   text-align: left;
