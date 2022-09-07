@@ -1,0 +1,25 @@
+{
+  "name": "dev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "dev-portfolio",
+  "author": "Luis",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "gatsby": "^4.22.0",
+    "gatsby-plugin-emotion": "^7.22.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
