@@ -3,5 +3,5 @@ module.exports = {
     title: `Dev Portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-emotion"]
+  plugins: ["gatsby-plugin-styled-components"]
 };
