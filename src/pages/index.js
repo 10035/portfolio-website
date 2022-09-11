@@ -1,82 +1,143 @@
 import * as React from "react"
-import styled from "styled-components"
+import Layout from "../components/Layout"
+
+// import styled from "styled-components"
 
 // NavBar Links
 //  Bio
 // Projects 
 //  Blog
 
-const headingStyles = {
-  marginTop: 100,
-  color: "blue",
-  marginBottom: 0,
-  maxWidth: 320,
-}
+const indexPage = () => {
 
-const bannerStyles = {
-
-}
-
-const navbarStyles = {
-
-}
-
-const bioStyles = {
-
-}
-
-const blogStyles = {
-
-}
-
-const projectStyles = {
-
-}
-
-const IndexPage = () => {
-  return(
-    <main>
-      <h1 style={headingStyles}>
-        Hello World, again!
-      </h1>
-      <p>Now what</p>
-
-      <banner style={bannerStyles}>
-      {/* Image */}
-      {/* Text */}
-      {/* Button */}
-
-      </banner>
-
-      <bio style={bioStyles}>
-      {/* Photo */}
-      {/* Description */}
-
-      </bio>
-
-      <blog style={blogStyles}>
-
-
-      </blog>
-
-      <projects style={projectStyles}>
-      {/* Project Name */}
-      {/* Project Description */}
-      {/* Link */}
-
-      </projects>
-
-      <navbar style={navbarStyles}>
-      {/* Link */}
-      {/* Link */}
-      {/* Link */}
-
-      </navbar>
-    </main>
+  return (
+      <Layout>
+        <main>
+          <div>
+            <h1>Portfolio Website</h1>
+            <h2>Projects</h2>
+            <h3>About Me</h3> 
+            <p>About Me Description</p> 
+          </div>
+        </main>
+      </Layout>
   )
 }
 
-export default IndexPage
+export default indexPage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const headingStyles = {
+//   marginTop: 100,
+//   color: "blue",
+//   marginBottom: 0,
+//   maxWidth: 320,
+// }
+
+// const bannerStyles = {
+
+// }
+
+// const navbarStyles = {
+
+// }
+
+// const bioStyles = {
+
+// }
+
+// const blogStyles = {
+
+// }
+
+// const projectContainerStyles = {
+//   border: 10,
+//   borderColor: "black",
+//   marginBottom: 10,
+//   marginTop: 10,
+//   backgroundColor: "green",
+// }
+
+// const links = [
+//   {
+//     text: "Tutorial",
+//     url: "https://www.gatsbyjs.com/docs/tutorial/",
+//     description:
+//       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+//     color: "#E95800",
+//   }
+
+// const IndexPage = () => {
+//   return(
+//     <main>
+//       {/* <h1 style={headingStyles}>
+//         Hello World, again!
+//       </h1>
+//       <p>Now what</p> */}
+
+//       <banner style={bannerStyles}>
+//       {/* Image */}
+//       {/* Text */}
+//       {/* Button */}
+
+//       </banner>
+
+//       <bio style={bioStyles}>
+//       {/* Photo */}
+//       {/* Description */}
+
+//       </bio>
+
+//       <blog style={blogStyles}>
+
+
+//       </blog>
+
+//       <projects style={projectContainerStyles}>
+
+//       {/* Project Name */}
+//       {/* Project Description */}
+//       {/* Link */}
+
+//       </projects>
+
+//       <navbar style={navbarStyles}>
+//       {/* Link */}
+//       {/* Link */}
+//       {/* Link */}
+
+//       </navbar>
+//     </main>
+//   )
+// }
+
+// export default IndexPage
 
 // const pageStyles = {
 //   color: "#232129",
