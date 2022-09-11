@@ -13,7 +13,9 @@ html, body {
 }
 
 body {
-    background: black;
+    /* background: linear-gradient(rgb(5, 26, 85),rgb(123, 138, 158)); */
+    /* background: linear-gradient(rgb(62, 68, 148),rgb(1, 8, 12)); */
+    background: linear-gradient(rgb(13, 19, 29),rgb(48, 47, 59));
     background-repeat: no-repeat;
 }
 
@@ -21,3 +23,40 @@ p {
     margin: 16px auto;
     line-height: 1.sem;
 }
+
+/* layout & nav */
+/* .layout {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+    background-color: orange;
+}
+
+nav .links {
+    display: inline-block;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    border-color: rgb(255, 255, 255);
+}
+
+footer p {
+    text-align: center;
+    color: aliceblue;
+    margin: 40px auto;
+}
+

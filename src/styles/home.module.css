@@ -1,0 +1,29 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: 40px;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.header h2 {
+    font-size: 2em;
+}
+
+.header h3 {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* .btn {
+    display: inline-block;
+    background: blue;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+} */

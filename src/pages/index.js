@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layout"
-
+import * as styles from '../styles/home.module.css'
 // import styled from "styled-components"
 
 // NavBar Links
@@ -12,14 +12,14 @@ const indexPage = () => {
 
   return (
       <Layout>
-        <main>
+        <section className={styles.header}>
           <div>
             <h1>Portfolio Website</h1>
             <h2>Projects</h2>
             <h3>About Me</h3> 
             <p>About Me Description</p> 
           </div>
-        </main>
+        </section>
       </Layout>
   )
 }
