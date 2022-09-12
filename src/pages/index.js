@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import * as React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
@@ -18,6 +19,7 @@ const indexPage = () => {
             <h2>Projects</h2>
             <h3>About Me</h3> 
             <p>About Me Description</p> 
+            <Link className={styles.btn} to="/projects">Projects</Link>
           </div>
         </section>
       </Layout>
