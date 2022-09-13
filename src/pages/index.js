@@ -3,6 +3,7 @@ import * as React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
 // import styled from "styled-components"
+import Cyborg from '../images/cyborg_ai.png'
 
 // NavBar Links
 //  Bio
@@ -11,12 +12,16 @@ import * as styles from '../styles/home.module.css'
 
 const indexPage = () => {
 
+  // console.log(Cyborg)
+  // console.log(typeof Cyborg)
+
   return (
       <Layout>
         <section className={styles.header}>
           <div>
             <h1>Portfolio Website</h1>
             <h2>Projects</h2>
+              <img src={Cyborg} alt="AI Generated Cyborg" style={{ maxWidth: '100%' }}/>
             <h3>About Me</h3> 
             <p>About Me Description</p> 
             <Link className={styles.btn} to="/projects">Projects</Link>
