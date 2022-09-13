@@ -5,7 +5,7 @@ module.exports = {
   },
   plugins: ["gatsby-plugin-styled-components"],
   siteMetadata: {
-    title: '(Graphql Test)',
+    title: 'Portfolio Website',
     description: 'Graphql Test',
     copyright: ''
   }

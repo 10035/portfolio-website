@@ -21,20 +21,21 @@ body {
 
 p {
     margin: 16px auto;
-    line-height: 1.sem;
+    line-height: 1.5em;
+    color: aliceblue;
 }
 
 /* layout & nav */
-/* .layout {
-    max-width: 1300px;
+.layout {
+    max-width: 1200px;
     margin: 0 auto;
-} */
+}
 
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 40px auto;
-    background-color: orange;
+    /* margin: 40px auto; */
+    /* background-color: orange; */
 }
 
 nav .links {

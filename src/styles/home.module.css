@@ -1,22 +1,21 @@
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid: 40px;
-    align-items: center;
+.profile {
+    text-align: center;
 }
 
-.header h1 {
+.profile h1 {
     font-size: 3em;
+    color: #000;
 }
 
-.header h2 {
+.profile h2 {
     font-size: 2em;
 }
 
-.header h3 {
+.profile h3 {
     font-size: 2em;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: rgb(71, 144, 255);
 }
 
 .btn {

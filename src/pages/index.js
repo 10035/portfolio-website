@@ -3,7 +3,7 @@ import * as React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
 // import styled from "styled-components"
-import Cyborg from '../images/cyborg_ai.png'
+import ProfilePic from '../images/profile_pic.jpeg'
 
 // NavBar Links
 //  Bio
@@ -18,20 +18,19 @@ const indexPage = () => {
   // console.log(typeof Cyborg)
 
   return (
-      <Layout>
-        <section className={styles.header}>
-          <div>
-            <h1>Portfolio Website</h1>
-            <h2>Projects</h2>
-              <img src={Cyborg} alt="AI Generated Cyborg" style={{ maxWidth: '100%' }}/>
-            <h3>About Me</h3> 
-            <p>About Me Description</p> 
-            <Link className={styles.btn} to="/projects">Projects</Link>
-          </div>
-          {/* <p>{ title } - { description }</p> */}
-        </section>
-      </Layout>
-  )
+    <Layout>
+        <div className={styles.profile}>
+          {/* <h1>Portfolio Website</h1> */}
+          <img src={ProfilePic} alt="Profile Picture" style={{ maxWidth: '35%' }}/>
+          <h3>About Me</h3> 
+          <p>Eu adipisicing anim nostrud aliquip qui anim deserunt cupidatat amet aliqua sit cillum adipisicing. Est laboris duis dolore ea Lorem excepteur ut voluptate officia ut deserunt aute do commodo. Incididunt elit do minim cupidatat irure id eiusmod cillum consequat. Adipisicing culpa fugiat elit dolore magna ipsum.</p> 
+          {/* <h2>Projects</h2> */}
+          <Link className={styles.btn} to="/projects">Projects</Link>
+        </div>
+        {/* <img src={Cyborg} alt="AI Generated Cyborg" style={{ maxWidth: '100%' }}/> */}
+        {/* <p>{ title } - { description }</p> */}
+    </Layout>
+)
 }
 
 // export const query = graphql`
