@@ -3,5 +3,10 @@ module.exports = {
     title: `Dev Portfolio`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-styled-components"]
+  plugins: ["gatsby-plugin-styled-components"],
+  siteMetadata: {
+    title: '(Graphql Test)',
+    description: 'Graphql Test',
+    copyright: ''
+  }
 };

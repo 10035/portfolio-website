@@ -10,8 +10,10 @@ import Cyborg from '../images/cyborg_ai.png'
 // Projects 
 //  Blog
 
+// const indexPage = ({ data }) => {
 const indexPage = () => {
-
+  // console.log(data)
+  // const { title, description } = data.site.siteMetadata
   // console.log(Cyborg)
   // console.log(typeof Cyborg)
 
@@ -26,10 +28,22 @@ const indexPage = () => {
             <p>About Me Description</p> 
             <Link className={styles.btn} to="/projects">Projects</Link>
           </div>
+          {/* <p>{ title } - { description }</p> */}
         </section>
       </Layout>
   )
 }
+
+// export const query = graphql`
+//   query SiteInfo {
+//     site {
+//       siteMetadata {
+//         title
+//         description
+//       }
+//     }
+//   }
+// `
 
 export default indexPage
 
