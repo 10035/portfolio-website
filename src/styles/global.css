@@ -35,6 +35,8 @@ p {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* margin-top: 10px; */
+    margin: 10px;
     /* margin: 40px auto; */
     /* background-color: orange; */
 }

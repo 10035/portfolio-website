@@ -17,18 +17,35 @@ const indexPage = () => {
   // console.log(Cyborg)
   // console.log(typeof Cyborg)
 
+  
   return (
     <Layout>
         <div className={styles.profile}>
           {/* <h1>Portfolio Website</h1> */}
           <img src={ProfilePic} alt="Profile Picture" style={{ maxWidth: '30%' }}/>
+          <br></br>
+          <br></br>
           <h3>About Me</h3> 
           <p>Enim labore velit adipisicing sunt velit exercitation dolore cillum veniam officia. Laboris laboris commodo esse enim reprehenderit. Ullamco tempor aute non veniam labore pariatur adipisicing labore anim et officia ex.</p> 
           <p>Consectetur id adipisicing mollit elit veniam ex dolore officia pariatur qui eiusmod officia. Ex elit dolor minim consequat. Cillum cupidatat duis quis est nulla consequat ex. Ullamco excepteur voluptate reprehenderit proident pariatur velit ullamco ad laboris nostrud. Nisi irure ullamco excepteur elit id amet.</p> 
           {/* <h2>Projects</h2> */}
+          <br></br>
+          <div>Spotify API Player Widget</div> {/*TODO Implement Spotify API*/}
+          <br></br>
           <section>
             <h2>Projects</h2>
+            <br></br>
+            <li>
+              <Link to="/projects">TumTum Artists Gatsby Website</Link>
+            </li>
+            <li>
+              <Link to="/projects">Top Goal Django Web App</Link>
+            </li>
+            <li>
+              <Link to="/projects">Wellbeing Flutter App</Link>
+            </li>
           </section>
+          
           {/* <Link className={styles.btn} to="/projects">Projects</Link> */}
         </div>
         {/* <img src={Cyborg} alt="AI Generated Cyborg" style={{ maxWidth: '100%' }}/> */}
