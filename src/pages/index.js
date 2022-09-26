@@ -21,11 +21,15 @@ const indexPage = () => {
     <Layout>
         <div className={styles.profile}>
           {/* <h1>Portfolio Website</h1> */}
-          <img src={ProfilePic} alt="Profile Picture" style={{ maxWidth: '35%' }}/>
+          <img src={ProfilePic} alt="Profile Picture" style={{ maxWidth: '30%' }}/>
           <h3>About Me</h3> 
-          <p>Eu adipisicing anim nostrud aliquip qui anim deserunt cupidatat amet aliqua sit cillum adipisicing. Est laboris duis dolore ea Lorem excepteur ut voluptate officia ut deserunt aute do commodo. Incididunt elit do minim cupidatat irure id eiusmod cillum consequat. Adipisicing culpa fugiat elit dolore magna ipsum.</p> 
+          <p>Enim labore velit adipisicing sunt velit exercitation dolore cillum veniam officia. Laboris laboris commodo esse enim reprehenderit. Ullamco tempor aute non veniam labore pariatur adipisicing labore anim et officia ex.</p> 
+          <p>Consectetur id adipisicing mollit elit veniam ex dolore officia pariatur qui eiusmod officia. Ex elit dolor minim consequat. Cillum cupidatat duis quis est nulla consequat ex. Ullamco excepteur voluptate reprehenderit proident pariatur velit ullamco ad laboris nostrud. Nisi irure ullamco excepteur elit id amet.</p> 
           {/* <h2>Projects</h2> */}
-          <Link className={styles.btn} to="/projects">Projects</Link>
+          <section>
+            <h2>Projects</h2>
+          </section>
+          {/* <Link className={styles.btn} to="/projects">Projects</Link> */}
         </div>
         {/* <img src={Cyborg} alt="AI Generated Cyborg" style={{ maxWidth: '100%' }}/> */}
         {/* <p>{ title } - { description }</p> */}

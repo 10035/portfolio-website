@@ -1,8 +1,42 @@
-.portfolio {
-    text-align: center;
+.row {
+    /* grid-row: 1 / span 3; */
+    margin-top: 50px;    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    /* background-color: rgb(29, 83, 129); */
+    padding: 10px;
+    /* height: auto; */
 }
 
-.portfolio > h2 {
+.card {
+    display: auto;
+    width: auto;
+    /* height: 100px; */
+    /* padding: 10px; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    text-align: center;
+    /* background-color: aliceblue; */
+    border: solid;
+    border-radius: 20px;
+    border-color: aliceblue;
+    /* padding-top: 25px; */
+    padding-bottom: 25px;
+}
+
+.links {
+    background-color: rgb(60, 118, 168);
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+
+/* .card {
+    text-align: center;
+} */
+
+/* .portfolio > h2 {
     font-size: 3em;
     margin-top: 80px;
 }
@@ -10,4 +44,4 @@
 .portfolio > h3 {
     font-size: 2em;
     font-weight: 400;
-}
+} */
