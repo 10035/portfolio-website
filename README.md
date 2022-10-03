@@ -7,4 +7,4 @@
   Built with Gatsby
 </h1>
 
-To visit live website follow this [link](https://portfoliowebsitemaster77892.gatsbyjs.io).
+Curious what it looks like? Check it out [here](https://portfoliowebsitemaster77892.gatsbyjs.io).
