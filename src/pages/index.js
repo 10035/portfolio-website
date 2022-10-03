@@ -3,7 +3,7 @@ import * as React from "react"
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
 // import styled from "styled-components"
-import ProfilePic from '../images/profile_pic.jpeg'
+import ProfilePic from '../images/dogcyborg2.png'
 
 // NavBar Links
 //  Bio
@@ -22,7 +22,7 @@ const indexPage = () => {
     <Layout>
         <div className={styles.profile}>
           {/* <h1>Portfolio Website</h1> */}
-          <img src={ProfilePic} alt="Profile Picture" style={{ maxWidth: '30%' }}/>
+          <img src={ProfilePic} alt="Dog Cyborg AI Generated" style={{ maxWidth: '30%' }}/>
           <br></br>
           <br></br>
           <h3>About Me</h3> 
