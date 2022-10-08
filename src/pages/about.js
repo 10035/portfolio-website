@@ -7,13 +7,16 @@ export default function about() {
     <Layout>
         <main>
             <h1>A bit about me...</h1>
-              <p>Amet sint duis reprehenderit excepteur aliqua.</p>
+              <p>I love anything that involves creativity, learning and working with people. From Making music, writing software, and starting starting new projects.</p>
             <h2>My Interests at work</h2>
-              <p>Amet sint duis reprehenderit excepteur aliqua.</p>
+              <p>Working with a team to build something greater than ourselves that has the potential to transcend and perdure time.</p>
             <h2>My Interests out of work</h2>
-              <p>Amet sint duis reprehenderit excepteur aliqua.</p>
+              <p>Travel is good for the soul so I try to indulge. I also play instruments...mainly guitar but also some drums and piano. </p>
             <h2>Skills</h2>
-              <p>Amet sint duis reprehenderit excepteur aliqua.</p>
+              <p>Web Dev: Gatsby</p>
+              <p>Mobile Dev: Flutter</p>
+              <p>Front End: React</p>
+              <p>Back End: Django, RoR</p>
             
             <p>Curious about what I've been working on? Go on, don't be shy → <Link to="/projects">Projects</Link></p>
             
