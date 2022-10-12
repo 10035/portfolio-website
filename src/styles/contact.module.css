@@ -1,6 +1,8 @@
 .contact_link {
     text-align: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 25px;
+    /* background-color: rgb(58, 127, 189); */
+    /* padding-top: 50px;
+    padding-bottom: 5px; */
 }
